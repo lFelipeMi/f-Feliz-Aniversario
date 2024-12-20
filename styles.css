@@ -8,6 +8,28 @@ body {
   align-items: center;
   height: 100vh;
   background: radial-gradient(circle, #1b2735, #090a0f);
+  font-family: Arial, sans-serif;
+}
+
+#countdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 canvas {
